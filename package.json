@@ -1,0 +1,47 @@
+{
+  "name": "vec-table",
+  "version": "1.0.0",
+  "description": "```js import VecTable from './vec-table/index.vue'; import { setDefaultConfigs } from './vec-table' import axios from 'axios'",
+  "main": "dist/vec-table.common.js",
+  "module": "dist/vec-table.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:umd": "rollup -c --file dist/vec-table.umd.js",
+    "build:esm": "rollup -c --file dist/vec-table.esm.js",
+    "build:cjs": "rollup -c --file dist/vec-table.common.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/zwd95/vec-table.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwd95/vec-table/issues"
+  },
+  "homepage": "https://github.com/zwd95/vec-table#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@vue/babel-preset-jsx": "^1.2.4",
+    "@vue/compiler-sfc": "^3.2.36",
+    "@vue/component-compiler-utils": "^3.3.0",
+    "element-ui": "^2.15.9",
+    "mc-form": "^1.0.19",
+    "rollup": "^2.75.5",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-vue": "^6.0.0",
+    "vue": "^2.6.14",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "peerDependencies": {
+    "element-ui": "^2.15.9",
+    "mc-form": "^1.0.19",
+    "vue": "^2.6.14"
+  }
+}
